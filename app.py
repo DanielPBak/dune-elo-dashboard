@@ -289,7 +289,9 @@ def load_original_data(_):
      Input(component_id="min-games-input", component_property="value")]
 )
 def load_current_elo_tables(json_data: List[dict], min_games: int):
+    print('called problematic function')
     data = utils.load_json_data(json_data)
+    print(data)
     tracker = utils.get_tracker(
         k_value=config.DEFAULT_K_VALUE,
         d_value=config.DEFAULT_D_VALUE,
@@ -297,12 +299,15 @@ def load_current_elo_tables(json_data: List[dict], min_games: int):
         initial_rating=config.INITIAL_RATING,
         data_to_process=data,
     )
+    print(tracker)
     results_history = utils.prep_results_history_for_dash(data)
+    print(results_history)
     current_ratings = utils.prep_current_ratings_for_dash(
         tracker=tracker,
         results_history=results_history,
         min_games=min_games
     )
+    print(current_ratings)D
     return (
         utils.display_current_ratings_table(current_ratings),
         utils.display_game_results_table(results_history)
