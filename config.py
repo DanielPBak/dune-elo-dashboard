@@ -13,8 +13,8 @@ DUMMY_PLAYER_NAME = "_dummy_"
 # dashboard settings
 DBC_THEME = "FLATLY"  # others I liked: DARKLY, SIMPLEX, LUMEN (https://bootswatch.com/flatly/)
 PLOTLY_THEME = "plotly_white"
-LOGO_PATH = "/assets/Red-Dog-Txt-&-Logo.jpg"
+LOGO_PATH = "/assets/vp.jpeg"
 GITHUB_LOGO_PATH = "assets/GitHub-Mark-32px.png"
-GITHUB_URL = "https://github.com/djcunningham0/poker-elo"
-TITLE = "Red Dog Poker Club"
-SUBTITLE = "Home of Uncommonly Smooth Poker"
+GITHUB_URL = "https://github.com/DanielPBak/dune-elo-dashboard"
+TITLE = "TTSClub Dune Club"
+SUBTITLE = "Dune!"
