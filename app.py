@@ -307,7 +307,7 @@ def load_current_elo_tables(json_data: List[dict], min_games: int):
         results_history=results_history,
         min_games=min_games
     )
-    print(current_ratings)D
+    print(current_ratings)
     return (
         utils.display_current_ratings_table(current_ratings),
         utils.display_game_results_table(results_history)
