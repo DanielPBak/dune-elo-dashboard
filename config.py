@@ -1,13 +1,13 @@
 # parameters for the Elo algorithm -- setting kind of arbitrarily for now, should tune once we have more data
 DEFAULT_K_VALUE = 32
 DEFAULT_D_VALUE = 400
-DEFAULT_SCORING_FUNCTION_BASE = 1.25
+DEFAULT_SCORING_FUNCTION_BASE = 1.0
 INITIAL_RATING = 1000
 
 # Google Sheets info for reading input data
 GSHEETS_CREDENTIALS_FILE = "./google-credentials.json"
-SPREADSHEET_ID = "1ZuEwqaBx4N_VX7nKGZ0nPcBilRLpvrQA00ddnrbEIOU"
-DATA_SHEET_ID = 626646746
+SPREADSHEET_ID = "1FfodGHcgy8Xh1IucHC3-JgcDd7o7PLVojUMrNodNg0I"
+DATA_SHEET_ID = 295324701
 DUMMY_PLAYER_NAME = "_dummy_"
 
 # dashboard settings
