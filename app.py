@@ -22,6 +22,7 @@ parser.add_argument("--debug", "-d", "--DEBUG", "-D", action="store_const", cons
                     help="Run in debug mode")
 args, _ = parser.parse_known_args()
 DEBUG = True if args.debug else False
+DEBUG = True
 
 
 # set up styles to be used in UI
