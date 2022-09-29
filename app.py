@@ -22,7 +22,6 @@ parser.add_argument("--debug", "-d", "--DEBUG", "-D", action="store_const", cons
                     help="Run in debug mode")
 args, _ = parser.parse_known_args()
 DEBUG = True if args.debug else False
-DEBUG = True
 
 
 # set up styles to be used in UI
@@ -61,9 +60,7 @@ def header():
 def footer():
     return html.Div([
         html.Hr(),
-        html.Small("*We claim no affiliation with Red Dog, Miller Brewing Company, or "
-                   "Plank Road Brewing, but we would happily promote for you if you in "
-                   "exchange for free beer :)",
+        html.Small("",
                    className="text-muted font-italic"),
         html.Hr(),
     ])
