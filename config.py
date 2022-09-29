@@ -17,4 +17,4 @@ LOGO_PATH = "/assets/vp.jpeg"
 GITHUB_LOGO_PATH = "assets/GitHub-Mark-32px.png"
 GITHUB_URL = "https://github.com/DanielPBak/dune-elo-dashboard"
 TITLE = "TTSClub Dune Club"
-SUBTITLE = "Dune!"
+SUBTITLE = 'Submit responses <a href="https://forms.gle/gej28Xmz6iAHS9p27">https://forms.gle/gej28Xmz6iAHS9p27</a>'
