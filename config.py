@@ -1,3 +1,6 @@
+import dash_html_components as html
+
+
 # parameters for the Elo algorithm -- setting kind of arbitrarily for now, should tune once we have more data
 DEFAULT_K_VALUE = 32
 DEFAULT_D_VALUE = 400
@@ -17,4 +20,4 @@ LOGO_PATH = "/assets/vp.jpeg"
 GITHUB_LOGO_PATH = "assets/GitHub-Mark-32px.png"
 GITHUB_URL = "https://github.com/DanielPBak/dune-elo-dashboard"
 TITLE = "TTSClub Dune Club"
-SUBTITLE = 'Submit games <a href="https://forms.gle/gej28Xmz6iAHS9p27">here</a>'
+SUBTITLE = ["Submit form responses ", html.A("here", href="https://forms.gle/mhb5zzNmV7QzJicP6")]
