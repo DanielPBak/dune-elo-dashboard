@@ -141,8 +141,7 @@ def scenario_generator_tab():
                      The score function base value controls how much more valuable it is to finish in a
                      high place. Larger value means greater reward for finishing near the top. A value of
                      *p* means that 1st place is worth approximately *p* times as much as 2nd, which is
-                     worth *p* times 3rd, and so on. This is a parameter I made up to generalize Elo to
-                     multiplayer games. (default = {config.DEFAULT_SCORING_FUNCTION_BASE})
+                     worth *p* times 3rd, and so on. (default = {config.DEFAULT_SCORING_FUNCTION_BASE})
                      """),
 
         dbc.Row(justify="center", align="center", children=[
