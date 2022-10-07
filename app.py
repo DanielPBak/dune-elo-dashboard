@@ -94,7 +94,7 @@ def current_elo_tab():
                         dbc.InputGroupAddon("Minimum games played", addon_type="prepend"),
                         dbc.Input(
                             id="min-games-input",
-                            value=1,
+                            value=2,
                             type="number",
                             min=1,
                             step=1,
