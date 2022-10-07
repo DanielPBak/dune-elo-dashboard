@@ -14,8 +14,8 @@ DATA_SHEET_ID = 295324701
 DUMMY_PLAYER_NAME = "_dummy_"
 
 # dashboard settings
-DBC_THEME = "FLATLY"  # others I liked: DARKLY, SIMPLEX, LUMEN (https://bootswatch.com/flatly/)
-PLOTLY_THEME = "plotly_white"
+DBC_THEME = "DARKLY"  # others I liked: DARKLY, SIMPLEX, LUMEN (https://bootswatch.com/flatly/)
+PLOTLY_THEME = "plotly_dark"
 LOGO_PATH = "/assets/vp.jpeg"
 GITHUB_LOGO_PATH = "assets/GitHub-Mark-32px.png"
 GITHUB_URL = "https://github.com/DanielPBak/dune-elo-dashboard"
