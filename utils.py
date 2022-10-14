@@ -74,7 +74,7 @@ def get_dash_theme(style: str) -> List[str]:
 def prep_results_history_for_dash(
         data: pd.DataFrame,
 ) -> pd.DataFrame:
-    results_history = data.copy()
+    results_history = data.copy().iloc[::-1]
     results_history = results_history.dropna(how="all", axis=1)  # drop columns if all NaN
     results_history = results_history.rename(columns={"date": "Date"})
     return results_history
