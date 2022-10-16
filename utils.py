@@ -103,7 +103,7 @@ def prep_current_ratings_for_dash(
 
     # only include players who have played min_games, then re-rank
     current_ratings = current_ratings[current_ratings["Games Played"] >= min_games]
-    current_ratings = current_ratings[~current_ratings["Name"].str.contains("#banned")]
+    current_ratings = current_ratings[~current_ratings["Name"].str.endswith("#banned")]
     current_ratings["Rank"] = range(1, current_ratings.shape[0] + 1)
 
     col_order = ["Rank", "Name", "Games Played", "Wins", "Elo Rating"]
@@ -144,7 +144,7 @@ def plot_tracker_history(
     # filter out players who haven't played min_games
     include_players = [player.id for player in tracker.player_df["player"]
                        if player.count_games() >= min_games]
-    include_players = [id for id in include_players if not "#banned" in id]
+    include_players = [id for id in include_players if not id.endswith("#banned")]
     history_df = history_df[history_df["player_id"].isin(include_players)]
 
     if equal_time_steps:
