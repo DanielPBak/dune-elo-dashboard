@@ -103,6 +103,7 @@ def prep_current_ratings_for_dash(
 
     # only include players who have played min_games, then re-rank
     current_ratings = current_ratings[current_ratings["Games Played"] >= min_games]
+    current_ratings = current_ratings[~current_ratings["Name"].str.contains("#banned")]
     current_ratings["Rank"] = range(1, current_ratings.shape[0] + 1)
 
     col_order = ["Rank", "Name", "Games Played", "Wins", "Elo Rating"]
