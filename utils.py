@@ -144,6 +144,7 @@ def plot_tracker_history(
     # filter out players who haven't played min_games
     include_players = [player.id for player in tracker.player_df["player"]
                        if player.count_games() >= min_games]
+    include_players = [id for id in include_players if not "#banned" in id]
     history_df = history_df[history_df["player_id"].isin(include_players)]
 
     if equal_time_steps:
