@@ -1,9 +1,9 @@
-# Poker Elo Dashboard
+# Dune Elo Dashboard
 
-A generalized version of Elo to track the results of our friendly poker games.
+A generalized version of Elo to track results for the TTS Dune: Imperium community.
 
-The dashboard is deployed on Heroku: https://poker-elo-dashboard.herokuapp.com
+The dashboard is deployed on Heroku: https://dune-ratings.herokuapp.com/
 
-The Elo calculations are performed using my [multielo](https://github.com/djcunningham0/multielo)
+The Elo calculations are performed using djcunningham0's [multielo](https://github.com/djcunningham0/multielo)
 package. Follow that link to reach the GitHub page for the package, which includes
 documentation and methodology for the generalized (multiplayer) Elo calculations.
