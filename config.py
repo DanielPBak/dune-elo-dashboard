@@ -19,5 +19,5 @@ PLOTLY_THEME = "plotly_white"
 LOGO_PATH = "/assets/vp.jpeg"
 GITHUB_LOGO_PATH = "assets/GitHub-Mark-32px.png"
 GITHUB_URL = "https://github.com/DanielPBak/dune-elo-dashboard"
-TITLE = "Dune: Imperium - Ranked Dashboard"
+TITLE = "Dune: Imperium - Ranked"
 SUBTITLE = ["Submit form responses ", html.A("here", href="https://forms.gle/mhb5zzNmV7QzJicP6")]
