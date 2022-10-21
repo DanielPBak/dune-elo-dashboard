@@ -50,7 +50,7 @@ def header():
             dbc.Col(children=[
                 html.H1(children=config.TITLE, className="text-primary", style=center_style),
                 html.H4(children=config.SUBTITLE, className="text-secondary", style=center_style),
-                html.H5(children=["For support, fixing submissions or to contribute join us at ", html.A("our discord", href="https://discord.gg/hBx8cCMRpd")], className="text-secondary", style=center_style),
+                html.H5(children=["For season 1 rankings, support, fixing submissions or to contribute join us at ", html.A("our discord", href="https://discord.gg/hBx8cCMRpd")], className="text-secondary", style=center_style),
             ]),
             dbc.Col(github_link, width="auto")
         ]),

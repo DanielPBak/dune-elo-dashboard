@@ -20,4 +20,4 @@ LOGO_PATH = "/assets/vp.jpeg"
 GITHUB_LOGO_PATH = "assets/GitHub-Mark-32px.png"
 GITHUB_URL = "https://github.com/DanielPBak/dune-elo-dashboard"
 TITLE = "Dune: Imperium - Ranked"
-SUBTITLE = ["Submit games using the brand new ", html.A("elo worm!", href="https://steamcommunity.com/sharedfiles/filedetails/?id=28763150476")]
+SUBTITLE = ["Submit games using the brand new ", html.A("elo worm!", href="https://steamcommunity.com/sharedfiles/filedetails/?id=2876315047")]
