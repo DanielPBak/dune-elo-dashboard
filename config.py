@@ -9,8 +9,8 @@ INITIAL_RATING = 1000
 
 # Google Sheets info for reading input data
 GSHEETS_CREDENTIALS_FILE = "./google-credentials.json"
-SPREADSHEET_ID = "1FfodGHcgy8Xh1IucHC3-JgcDd7o7PLVojUMrNodNg0I"
-DATA_SHEET_ID = 295324701
+SPREADSHEET_ID = "1ytUEB9peuZfON7dXXzwF6KGgDJL07Ki8hKbNlS4ysaI"
+DATA_SHEET_ID = 1301526851
 DUMMY_PLAYER_NAME = "_dummy_"
 
 # dashboard settings
@@ -20,4 +20,4 @@ LOGO_PATH = "/assets/vp.jpeg"
 GITHUB_LOGO_PATH = "assets/GitHub-Mark-32px.png"
 GITHUB_URL = "https://github.com/DanielPBak/dune-elo-dashboard"
 TITLE = "Dune: Imperium - Ranked"
-SUBTITLE = ["Submit form responses ", html.A("here", href="https://forms.gle/mhb5zzNmV7QzJicP6")]
+SUBTITLE = ["Submit games using the brand new ", html.A("elo worm!", href="https://steamcommunity.com/sharedfiles/filedetails/?id=28763150476")]
