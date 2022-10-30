@@ -10,7 +10,7 @@ INITIAL_RATING = 1000
 # Google Sheets info for reading input data
 GSHEETS_CREDENTIALS_FILE = "./google-credentials.json"
 SPREADSHEET_ID = "16vOlzEzeIOVIK0mVEXtcz3xO1e8rlJPFLXj_LpjmPRs"
-DATA_SHEET_ID = 169789486
+DATA_SHEET_ID = 1175598437
 DUMMY_PLAYER_NAME = "_dummy_"
 
 # dashboard settings
